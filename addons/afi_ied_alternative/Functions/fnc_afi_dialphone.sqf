@@ -1,5 +1,6 @@
 /*
  * Author: Garth 'L-H' de Wet
+ * Modified by Anatooli
  * Dials the number passed and detonates the explosive.
  *
  * Arguments:

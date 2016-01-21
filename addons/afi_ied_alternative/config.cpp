@@ -2,6 +2,7 @@
 #include "\z\ace\addons\explosives\script_component.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
+#include "ACE_Triggers.hpp"
 
 class CfgPatches
 {
@@ -22,11 +23,10 @@ class Rsc_ACE_HiddenButton;
 class Rsc_ACE_PhoneInterface {
     class controls {
         class dial: Rsc_ACE_HiddenButton {
-						action = QUOTE([ARR_2(ace_player,ctrlText 1400)] call fnc_afi_dialPhone;);
+			action = QUOTE([ARR_2(ace_player,ctrlText 1400)] call fnc_afi_dialPhone;);
         };
     };
 };
-
 
 class CfgMineTriggers
 {

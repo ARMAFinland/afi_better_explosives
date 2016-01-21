@@ -1,7 +1,7 @@
 /*
  * Author: Garth 'L-H' de Wet
+ * Modified by Anatooli
  * Performs the dial tones and detonation of explosive.
- * Overrides ACE3 fnc_explosives_dialingPhone.sqf
  *
  * Arguments:
  * 0: Unit to do dialing <OBJECT>

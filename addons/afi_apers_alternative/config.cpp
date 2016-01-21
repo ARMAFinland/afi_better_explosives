@@ -1,5 +1,6 @@
 #define _ARMA_
 #include "CfgAmmo.hpp"
+#include "ACE_Triggers.hpp"
 
 class CfgPatches
 {

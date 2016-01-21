@@ -48,6 +48,13 @@ class cfgAmmo
 	};
 	class APERSMine_Range_Ammo: MineBase
 	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 210;
+        ace_frag_charge = 185;
+        ace_frag_gurney_c = 2843;
+        ace_frag_gurney_k = 3/5;
+		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
+		
 		hit = 3;
 		indirectHit = 3;
 		indirectHitRange = 5;
@@ -69,6 +76,13 @@ class cfgAmmo
 	};
 	class APERSBoundingMine_Range_Ammo: BoundingMineBase
 	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 210;
+        ace_frag_charge = 185;
+        ace_frag_gurney_c = 2843;
+        ace_frag_gurney_k = 3/5;
+		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
+		
 		hit = 20;
 		indirectHit = 20;
 		indirectHitRange = 20;
@@ -90,6 +104,13 @@ class cfgAmmo
 	};
 	class APERSTripMine_Wire_Ammo: DirectionalBombBase
 	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 210;
+        ace_frag_charge = 185;
+        ace_frag_gurney_c = 2843;
+        ace_frag_gurney_k = 3/5;
+		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
+		
 		hit = 5;
 		indirectHit = 5;
 		indirectHitRange = 10;

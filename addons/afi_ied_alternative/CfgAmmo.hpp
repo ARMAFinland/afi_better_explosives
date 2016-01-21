@@ -1,12 +1,19 @@
 class CfgAmmo
 {
 	class PipeBombCore;
-    	class PipeBombBase: PipeBombCore;
+    class PipeBombBase: PipeBombCore
 	{
-        	ACE_DefuseTime = 10;
+		ACE_DefuseTime = 10;
 	};
 	class IEDUrbanBig_Remote_Ammo: PipeBombBase
 	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 140000;
+        ace_frag_charge = 87000;
+        ace_frag_gurney_c = 2320;
+        ace_frag_gurney_k = 1/2;
+		ace_frag_classes[] = {"ACE_frag_large","ACE_frag_large","ACE_frag_large_HD","ACE_frag_large","ACE_frag_huge","ACE_frag_huge_HD","ACE_frag_huge"};
+		
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.05;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -21,6 +28,13 @@ class CfgAmmo
 	};
 	class IEDUrbanSmall_Remote_Ammo: PipeBombBase
 	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 140000;
+        ace_frag_charge = 87000;
+        ace_frag_gurney_c = 2320;
+        ace_frag_gurney_k = 1/2;
+		ace_frag_classes[] = {"ACE_frag_large","ACE_frag_large","ACE_frag_large_HD","ACE_frag_large","ACE_frag_huge","ACE_frag_huge_HD","ACE_frag_huge"};
+		
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.05;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
