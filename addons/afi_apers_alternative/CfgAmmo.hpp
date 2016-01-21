@@ -24,7 +24,7 @@ class cfgAmmo
 		explosionType = "mine";
 		triggerWhenDestroyed = 1;
 		underwaterHitRangeCoef = 0.5;
-		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_activate_mine_1",0.56234133,1,50};
+		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.56234133,1,50};
 		soundActivation[] = {"A3\Sounds_F\weapons\Mines\electron_activate_mine_1",0.56234133,1,50};
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,50};
 	};

@@ -27,7 +27,7 @@ class CfgMineTriggers
 		mineTriggerActivationRange = 5;
 		restrictZoneCenter[] = {0,0,0};
 		restrictZoneRadius = 5;
-		mineDelay = 0.5;
+		mineDelay = 3;
 	};
 };
 class cfgMods
