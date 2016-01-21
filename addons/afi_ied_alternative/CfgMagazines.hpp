@@ -5,7 +5,6 @@ class CfgMagazines
 	class IEDUrbanBig_Remote_Mag: DemoCharge_Remote_Mag
 	{
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanBig";
-		ACE_DelayTime = 5;
 		class ACE_Triggers
 		{
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone"};
@@ -20,9 +19,8 @@ class CfgMagazines
 	};
 	class IEDUrbanBig_Pressure_Mag: IEDUrbanBig_Remote_Mag
 	{
-		displayName = "Big IED with pressure plate (Urban)";
+		displayName = "Big IED pressure plate (Urban)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanBig";
-		ACE_DelayTime = 5;
 		class ACE_Triggers
 		{
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone","PressurePlate"};
@@ -45,7 +43,6 @@ class CfgMagazines
 	class IEDLandBig_Remote_Mag: IEDUrbanBig_Remote_Mag
 	{
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandBig";
-		ACE_DelayTime = 5;
 		class ACE_Triggers: ACE_Triggers
 		{
 			class Command: Command
@@ -56,9 +53,8 @@ class CfgMagazines
 	};
 	class IEDLandBig_Pressure_Mag: IEDLandBig_Remote_Mag
 	{
-		displayName = "Big IED with pressure plate (Dug-in)";
+		displayName = "Big IED pressure plate (Dug-in)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandBig";
-		ACE_DelayTime = 5;
 		class ACE_Triggers: ACE_Triggers
 		{
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone","PressurePlate"};
@@ -75,7 +71,6 @@ class CfgMagazines
 	class IEDUrbanSmall_Remote_Mag: DemoCharge_Remote_Mag
 	{
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
-		ACE_DelayTime = 5;
 		class ACE_Triggers
 		{
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone"};
@@ -90,9 +85,8 @@ class CfgMagazines
 	};
 	class IEDUrbanSmall_Pressure_Mag: IEDUrbanSmall_Remote_Mag
 	{
-		displayName = "Small IED with pressure plate (Urban)";
+		displayName = "Small IED pressure plate (Urban)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
-		ACE_DelayTime = 5;
 		class ACE_Triggers
 		{
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone","PressurePlate"};
@@ -115,7 +109,6 @@ class CfgMagazines
 	class IEDLandSmall_Remote_Mag: IEDUrbanSmall_Remote_Mag
 	{
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
-		ACE_DelayTime = 5;
 		class ACE_Triggers: ACE_Triggers
 		{
 			class Command: Command
@@ -126,9 +119,8 @@ class CfgMagazines
 	};
 	class IEDLandSmall_Pressure_Mag: IEDLandSmall_Remote_Mag
 	{
-		displayName = "Small IED with pressure plate (Dug-in)";
+		displayName = "Small IED pressure plate (Dug-in)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
-		ACE_DelayTime = 5;
 		class ACE_Triggers: ACE_Triggers
 		{
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone","PressurePlate"};

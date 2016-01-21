@@ -41,7 +41,7 @@ class CfgAmmo
 	};
 	class IEDLandBig_Range_Ammo: IEDLandBig_Remote_Ammo
 	{
-		mineTrigger = "RangeTriggerIEDBig";
+		mineTrigger = "RangeTriggerIEDSmall";
 	};
 	class IEDLandSmall_Remote_Ammo: PipeBombBase
 	{
