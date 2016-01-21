@@ -1,0 +1,11 @@
+name = "ARMA Finland better explosives 0.4";
+picture = "";
+actionName = "GitHub";
+action = "https://github.com/Jansgi/afi_better_explosives";
+description = "Version 0.4";
+logo = "";
+logoOver = "";
+tooltip = "AFI";
+tooltipOwned = "AFI Owned";
+overview = "Improves explosives realism/gameplay balance.";
+author = "ARMA Finland";
