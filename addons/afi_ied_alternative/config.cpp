@@ -35,16 +35,12 @@ class CfgMineTriggers
 	{
 		mineTriggerRange = 1;
 		mineTriggerActivation = 5;
-		restrictZoneCenter[] = {0,0,0};
-		restrictZoneRadius = 5;
 		mineDelay = 1;
 	};
 	class RangeTriggerIEDBig: RangeTrigger
 	{
 		mineTriggerRange = 1.2;
 		mineTriggerActivation = 5;
-		restrictZoneCenter[] = {0,0,0};
-		restrictZoneRadius = 5;
 		mineDelay = 1;
 	};
 };
