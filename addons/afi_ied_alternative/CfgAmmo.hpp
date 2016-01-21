@@ -12,7 +12,8 @@ class CfgAmmo
 		ace_frag_charge = 6620;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium"};		
+		ace_frag_classes[] = {"ACE_frag_medium"};
+		// values from M107 projectile		
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.05;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -33,6 +34,7 @@ class CfgAmmo
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
 		ace_frag_classes[] = {"ACE_frag_medium"};
+		// values from HE M3 Shell
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.05;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};

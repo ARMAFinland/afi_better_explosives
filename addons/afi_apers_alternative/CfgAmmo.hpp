@@ -47,11 +47,12 @@ class cfgAmmo
 	class APERSMine_Range_Ammo: MineBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 245;
-		ace_frag_charge = 55;
-		ace_frag_gurney_c = 2500;
+		ace_frag_metal = 115;
+		ace_frag_charge = 43;
+		ace_frag_gurney_c = 2830;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
+		// values from VS-50 mine
 		// hit = 3;
 		// indirectHit = 3;
 		// indirectHitRange = 5;
@@ -79,6 +80,7 @@ class cfgAmmo
 		ace_frag_gurney_c = 2843;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_small"};
+		// values from M16 mine
 		// hit = 20;
 		// indirectHit = 20;
 		// indirectHitRange = 20;
@@ -105,7 +107,8 @@ class cfgAmmo
 		ace_frag_charge = 75;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_small"};		
+		ace_frag_classes[] = {"ACE_frag_small"};
+		// values from POMZ-2M mine		
 		// hit = 5;
 		// indirectHit = 5;
 		// indirectHitRange = 10;
