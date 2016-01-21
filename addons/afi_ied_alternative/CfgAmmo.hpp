@@ -3,7 +3,9 @@ class CfgAmmo
 	class PipeBombCore;
     class PipeBombBase: PipeBombCore
 	{
-		ACE_DefuseTime = 10;
+		ACE_DefuseTime = 20;
+		ace_frag_skip = 0;
+		ace_frag_force = 1;
 	};
 	class IEDUrbanBig_Remote_Ammo: PipeBombBase
 	{
@@ -12,10 +14,12 @@ class CfgAmmo
 		ace_frag_charge = 6620;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium"};
-		// values from M107 projectile		
+		ace_frag_classes[] = {"ACE_frag_large"};
+		// values from M107 projectile
+		indirectHit = 1;
+		indirectHitRange = 1;	
 		triggerWhenDestroyed = 1;
-		ACE_explodeOnDefuse = 0.05;
+		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
 	class IEDUrbanBig_Command_Ammo: IEDUrbanBig_Remote_Ammo
@@ -35,8 +39,10 @@ class CfgAmmo
 		ace_frag_gurney_k = 1/2;
 		ace_frag_classes[] = {"ACE_frag_medium"};
 		// values from HE M3 Shell
+		indirectHit = 1;
+		indirectHitRange = 1;
 		triggerWhenDestroyed = 1;
-		ACE_explodeOnDefuse = 0.05;
+		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
 	class IEDUrbanSmall_Command_Ammo: IEDUrbanSmall_Remote_Ammo
@@ -49,8 +55,17 @@ class CfgAmmo
 	};
 	class IEDLandBig_Remote_Ammo: PipeBombBase
 	{
+		ace_frag_enabled = 1;
+		ace_frag_metal = 37260;
+		ace_frag_charge = 6620;
+		ace_frag_gurney_c = 2440;
+		ace_frag_gurney_k = 1/2;
+		ace_frag_classes[] = {"ACE_frag_large"};
+		// values from M107 projectile
+		indirectHit = 1;
+		indirectHitRange = 1;	
 		triggerWhenDestroyed = 1;
-		ACE_explodeOnDefuse = 0.05;
+		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
 	class IEDLandBig_Command_Ammo: IEDLandBig_Remote_Ammo
@@ -63,8 +78,17 @@ class CfgAmmo
 	};
 	class IEDLandSmall_Remote_Ammo: PipeBombBase
 	{
+		ace_frag_enabled = 1;
+		ace_frag_metal = 7470;
+		ace_frag_charge = 3640;
+		ace_frag_gurney_c = 2440;
+		ace_frag_gurney_k = 1/2;
+		ace_frag_classes[] = {"ACE_frag_medium"};
+		// values from HE M3 Shell
+		indirectHit = 1;
+		indirectHitRange = 1;
 		triggerWhenDestroyed = 1;
-		ACE_explodeOnDefuse = 0.05;
+		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
 	class IEDLandSmall_Command_Ammo: IEDLandSmall_Remote_Ammo

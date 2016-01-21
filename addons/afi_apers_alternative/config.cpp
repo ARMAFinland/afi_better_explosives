@@ -20,7 +20,7 @@ class CfgMineTriggers
 	{
 		mineTriggerRange = 1;
 		mineTriggerActivation = 5;
-		mineDelay = 0.5;
+		mineDelay = 0.2;
 	};
 	class RangeTriggerBounding: RangeTrigger
 	{
@@ -28,7 +28,7 @@ class CfgMineTriggers
 		mineTriggerActivationRange = 5;
 		restrictZoneCenter[] = {0,0,0};
 		restrictZoneRadius = 5;
-		mineDelay = 3;
+		mineDelay = 2;
 	};
 };
 class cfgMods

@@ -5,6 +5,8 @@ class cfgAmmo
 	class DirectionalBombCore;
 	class MineBase: MineCore
 	{
+		ace_frag_skip = 0;
+		ace_frag_force = 1;
 		icon = "iconExplosiveAT";
 		mapsize = 1;
 		explosionType = "mine";
@@ -17,6 +19,8 @@ class cfgAmmo
 	};
 	class BoundingMineBase: BoundingMineCore
 	{
+		ace_frag_skip = 0;
+		ace_frag_force = 1;
 		icon = "iconExplosiveAP";
 		mapsize = 1;
 		explosionType = "mine";
@@ -28,6 +32,8 @@ class cfgAmmo
 	};
 	class DirectionalBombBase: DirectionalBombCore
 	{
+		ace_frag_skip = 0;
+		ace_frag_force = 1;
 		explosionPos = "explosionPos";
 		explosionDir = "explosionDir";
 		minimumSafeZone = 1;
@@ -47,15 +53,14 @@ class cfgAmmo
 	class APERSMine_Range_Ammo: MineBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 115;
-		ace_frag_charge = 43;
+		ace_frag_metal = 245;
+		ace_frag_charge = 55;
 		ace_frag_gurney_c = 2830;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		// values from VS-50 mine
-		// hit = 3;
-		// indirectHit = 3;
-		// indirectHitRange = 5;
+		ace_frag_classes[] = {"ACE_frag_medium_HD"};
+		// values from PMN-4 mine
+		indirectHit = 1;
+		indirectHitRange = 1;
 		model = "\A3\Weapons_F\explosives\mine_ap";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_ap_d";
 		icon = "iconExplosiveAP";
@@ -79,11 +84,10 @@ class cfgAmmo
 		ace_frag_charge = 601;
 		ace_frag_gurney_c = 2843;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_small"};
+		ace_frag_classes[] = {"ACE_frag_large_HD"};
 		// values from M16 mine
-		// hit = 20;
-		// indirectHit = 20;
-		// indirectHitRange = 20;
+		indirectHit = 1;
+		indirectHitRange = 1;
 		model = "\A3\Weapons_F\explosives\mine_AP_bouncing";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_bouncing_d";
 		defaultMagazine = "APERSBoundingMine_Range_Mag";
@@ -107,11 +111,10 @@ class cfgAmmo
 		ace_frag_charge = 75;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_small"};
-		// values from POMZ-2M mine		
-		// hit = 5;
-		// indirectHit = 5;
-		// indirectHitRange = 10;
+		ace_frag_classes[] = {"ACE_frag_large_HD"};
+		// values from POMZ-2M mine
+		indirectHit = 1;
+		indirectHitRange = 1;		
 		model = "\A3\Weapons_F\explosives\mine_AP_tripwire";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_tripwire_d";
 		defaultMagazine = "APERSTripMine_Wire_Mag";

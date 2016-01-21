@@ -35,13 +35,13 @@ class CfgMineTriggers
 	{
 		mineTriggerRange = 1;
 		mineTriggerActivation = 5;
-		mineDelay = 1;
+		mineDelay = 0.2;
 	};
 	class RangeTriggerIEDBig: RangeTrigger
 	{
 		mineTriggerRange = 1.2;
 		mineTriggerActivation = 5;
-		mineDelay = 1;
+		mineDelay = 0.2;
 	};
 };
 class cfgMods
