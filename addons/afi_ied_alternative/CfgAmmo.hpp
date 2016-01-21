@@ -1,6 +1,10 @@
 class CfgAmmo
 {
-	class PipeBombBase;
+	class PipeBombCore;
+    	class PipeBombBase: PipeBombCore;
+	{
+        	ACE_DefuseTime = 10;
+	};
 	class IEDUrbanBig_Remote_Ammo: PipeBombBase
 	{
 		triggerWhenDestroyed = 1;
