@@ -1,8 +1,10 @@
 ﻿
-.gitignore¨
+.gitignore
 
 # PBO File Format
 *.pbo
+
+*.bin
 
 # Windows image file caches
 Thumbs.db
