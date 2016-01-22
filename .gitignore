@@ -1,7 +1,7 @@
-
+﻿
 .gitignore¨
 # Binary files
-*.bin
+.bin
 
 # PBO File Format
 *.pbo
