@@ -129,4 +129,21 @@ class cfgAmmo
 		mineTrigger = "WireTrigger";
 		mineInconspicuousness = 50;
 	};
+	
+	class Tripflare_Ammo: APERSTripMine_Wire_Ammo
+	{
+		ace_frag_skip = 1;
+		hit=0;
+		indirectHit=0;
+		indirectHitRange=0;
+		defaultMagazine="Tripflare_Mag";
+		soundHit[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot",3.5,1,1500};
+		explosionEffects="Tripflare_Explosion_Effect";
+		CraterEffects="";
+		mineTrigger="WireTrigger";
+	};
+	class Tripflare_Ammo_White: Tripflare_Ammo {};
+	class Tripflare_Ammo_Green: Tripflare_Ammo {};
+	class Tripflare_Ammo_Red: Tripflare_Ammo {};
+	class Tripflare_Ammo_Yellow: Tripflare_Ammo {};
 };

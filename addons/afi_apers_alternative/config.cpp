@@ -1,5 +1,6 @@
 #define _ARMA_
 #include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
 #include "ACE_Triggers.hpp"
 
 class CfgPatches
@@ -14,7 +15,7 @@ class CfgPatches
 };
 
 class Extended_PreInit_EventHandlers {
-	afi_ied_alternative_PreInit = "[] execVM 'afi_apers_alternative\init.sqf'";
+	afi_apers_alternative_PreInit = "[] execVM 'afi_apers_alternative\init.sqf'";
 };
 
 class CfgMineTriggers
@@ -34,6 +35,34 @@ class CfgMineTriggers
 		mineDelay = 2;
 	};
 };
+
+class Tripflare_Explosion_Effect {
+	class Light_Effect {
+		intensity = 0.005;
+		interval = 1;
+		lifetime = 0.8;
+		position[] = {0, 1, 0};
+		simulation = "light";
+		type = "ExploLight";
+	};
+	class Fire_Effect {
+		intensity = 1;
+		interval = 1;
+		lifetime = 1;
+		position[] = {0, 0, 0};
+		simulation = "particles";
+		type = "FireSparksSmall1";
+	};
+	class Smoke_Effect {
+		intensity = 1;
+		interval = 1;
+		lifetime = 1;
+		position[] = {0, 0, 0};
+		simulation = "particles";
+		type = "CloudSmallLight1";
+	};
+};
+
 class cfgMods
 {
 	author = "Johnson & Anatooli";
