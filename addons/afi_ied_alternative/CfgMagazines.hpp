@@ -109,7 +109,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class IEDLandSmall_Remote_Mag: IEDUrbanSmall_Remote_Mag
+	class IEDLandMedium_Remote_Mag: IEDUrbanSmall_Remote_Mag
 	{
 		displayName = "Medium IED (Dug-in M362A1)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
@@ -121,7 +121,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class IEDLandSmall_Pressure_Mag: IEDLandSmall_Remote_Mag
+	class IEDLandMedium_Pressure_Mag: IEDLandMedium_Remote_Mag
 	{
 		displayName = "Medium IED pressure plate (Dug-in M362A1)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
