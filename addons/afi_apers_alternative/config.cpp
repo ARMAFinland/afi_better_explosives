@@ -36,6 +36,6 @@ class CfgMineTriggers
 };
 class cfgMods
 {
-	author = "Johnson & Tuntematon & Anatooli";
+	author = "Johnson & Anatooli";
 	authorUrl = "www.armafinland.fi";
 };
