@@ -56,7 +56,7 @@ class cfgAmmo
 		ace_frag_metal = 245;
 		ace_frag_charge = 55;
 		ace_frag_gurney_c = 2830;
-		ace_frag_gurney_k = 3/5;
+		ace_frag_gurney_k = 1/3;
 		ace_frag_classes[] = {"ACE_frag_medium_HD"};
 		// values from PMN-4 mine
 		indirectHit = 1;
