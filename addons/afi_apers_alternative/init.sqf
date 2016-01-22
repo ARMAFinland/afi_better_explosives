@@ -1,0 +1,1 @@
+fnc_afi_handleMineFrags = compile preprocessFileLineNumbers "afi_apers_alternative\Functions\fnc_afi_handleMineFrags.sqf";

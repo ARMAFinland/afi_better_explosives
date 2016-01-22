@@ -10,12 +10,12 @@ class CfgAmmo
 	class IEDUrbanBig_Remote_Ammo: PipeBombBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 37260;
-		ace_frag_charge = 6620;
+		ace_frag_metal = 17605;
+		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
+		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from M107 projectile
+		// values from 122 mm howitzer OF-462
 		indirectHit = 1;
 		indirectHitRange = 1;	
 		triggerWhenDestroyed = 1;
@@ -33,12 +33,12 @@ class CfgAmmo
 	class IEDUrbanSmall_Remote_Ammo: PipeBombBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 7470;
-		ace_frag_charge = 3640;
+		ace_frag_metal = 200;
+		ace_frag_charge = 110;
 		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium"};
-		// values from HE M3 Shell
+		ace_frag_gurney_k = 3/5;
+		ace_frag_classes[] = {"ACE_frag_large"};
+		// values from RGD-5 grenade
 		indirectHit = 1;
 		indirectHitRange = 1;
 		triggerWhenDestroyed = 1;
@@ -56,12 +56,12 @@ class CfgAmmo
 	class IEDLandBig_Remote_Ammo: PipeBombBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 37260;
-		ace_frag_charge = 6620;
+		ace_frag_metal = 17605;
+		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
+		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from M107 projectile
+		// values from 122 mm howitzer OF-462
 		indirectHit = 1;
 		indirectHitRange = 1;	
 		triggerWhenDestroyed = 1;
@@ -79,12 +79,12 @@ class CfgAmmo
 	class IEDLandSmall_Remote_Ammo: PipeBombBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 7470;
-		ace_frag_charge = 3640;
+		ace_frag_metal = 200;
+		ace_frag_charge = 110;
 		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium"};
-		// values from HE M3 Shell
+		ace_frag_gurney_k = 3/5;
+		ace_frag_classes[] = {"ACE_frag_large"};
+		// values from RGD-5 grenade
 		indirectHit = 1;
 		indirectHitRange = 1;
 		triggerWhenDestroyed = 1;

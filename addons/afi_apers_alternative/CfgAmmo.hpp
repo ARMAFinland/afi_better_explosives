@@ -83,7 +83,7 @@ class cfgAmmo
 		ace_frag_metal = 182;
 		ace_frag_charge = 601;
 		ace_frag_gurney_c = 2843;
-		ace_frag_gurney_k = 3/5;
+		ace_frag_gurney_k = 1/2;
 		ace_frag_classes[] = {"ACE_frag_large_HD"};
 		// values from M16 mine
 		indirectHit = 1;
@@ -110,7 +110,7 @@ class cfgAmmo
 		ace_frag_metal = 225;
 		ace_frag_charge = 75;
 		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 3/5;
+		ace_frag_gurney_k = 1/2;
 		ace_frag_classes[] = {"ACE_frag_large_HD"};
 		// values from POMZ-2M mine
 		indirectHit = 1;

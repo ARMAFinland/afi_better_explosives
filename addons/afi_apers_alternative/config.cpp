@@ -12,6 +12,11 @@ class CfgPatches
 		requiredAddons[] = {"ace_explosives","ace_interaction","ace_interact_menu","A3_Weapons_F"};
 	};
 };
+
+class Extended_PreInit_EventHandlers {
+	afi_ied_alternative_PreInit = "[] execVM 'afi_apers_alternative\init.sqf'";
+};
+
 class CfgMineTriggers
 {
 	class RangeTrigger;
@@ -26,8 +31,6 @@ class CfgMineTriggers
 	{
 		mineTriggerRange = 1;
 		mineTriggerActivationRange = 5;
-		restrictZoneCenter[] = {0,0,0};
-		restrictZoneRadius = 5;
 		mineDelay = 2;
 	};
 };

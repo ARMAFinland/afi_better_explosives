@@ -4,6 +4,7 @@ class CfgMagazines
 	class PressurePlate;
 	class IEDUrbanBig_Remote_Mag: DemoCharge_Remote_Mag
 	{
+		displayName = "Big IED (Urban OF-462)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanBig";
 		class ACE_Triggers
 		{
@@ -19,7 +20,7 @@ class CfgMagazines
 	};
 	class IEDUrbanBig_Pressure_Mag: IEDUrbanBig_Remote_Mag
 	{
-		displayName = "Big IED pressure plate (Urban)";
+		displayName = "Big IED pressure plate (Urban OF-462)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanBig";
 		class ACE_Triggers
 		{
@@ -42,6 +43,7 @@ class CfgMagazines
 	};
 	class IEDLandBig_Remote_Mag: IEDUrbanBig_Remote_Mag
 	{
+		displayName = "Big IED (Dug-in OF-462)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandBig";
 		class ACE_Triggers: ACE_Triggers
 		{
@@ -53,7 +55,7 @@ class CfgMagazines
 	};
 	class IEDLandBig_Pressure_Mag: IEDLandBig_Remote_Mag
 	{
-		displayName = "Big IED pressure plate (Dug-in)";
+		displayName = "Big IED pressure plate (Dug-in OF-462)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandBig";
 		class ACE_Triggers: ACE_Triggers
 		{
@@ -70,6 +72,7 @@ class CfgMagazines
 	};
 	class IEDUrbanSmall_Remote_Mag: DemoCharge_Remote_Mag
 	{
+		displayName = "Small (Urban RGD-5)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
 		class ACE_Triggers
 		{
@@ -85,7 +88,7 @@ class CfgMagazines
 	};
 	class IEDUrbanSmall_Pressure_Mag: IEDUrbanSmall_Remote_Mag
 	{
-		displayName = "Small IED pressure plate (Urban)";
+		displayName = "Small IED pressure plate (Urban RGD-5)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
 		class ACE_Triggers
 		{
@@ -108,6 +111,7 @@ class CfgMagazines
 	};
 	class IEDLandSmall_Remote_Mag: IEDUrbanSmall_Remote_Mag
 	{
+		displayName = "Small IED (Dug-in RGD-5)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
 		class ACE_Triggers: ACE_Triggers
 		{
@@ -119,7 +123,7 @@ class CfgMagazines
 	};
 	class IEDLandSmall_Pressure_Mag: IEDLandSmall_Remote_Mag
 	{
-		displayName = "Small IED pressure plate (Dug-in)";
+		displayName = "Small IED pressure plate (Dug-in RGD-5)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
 		class ACE_Triggers: ACE_Triggers
 		{
