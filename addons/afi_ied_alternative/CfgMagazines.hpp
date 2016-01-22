@@ -72,7 +72,7 @@ class CfgMagazines
 	};
 	class IEDUrbanSmall_Remote_Mag: DemoCharge_Remote_Mag
 	{
-		displayName = "Small (Urban M67)";
+		displayName = "Small IED (Urban M67)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
 		class ACE_Triggers
 		{
