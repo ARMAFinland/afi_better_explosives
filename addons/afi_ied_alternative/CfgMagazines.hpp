@@ -72,7 +72,7 @@ class CfgMagazines
 	};
 	class IEDUrbanSmall_Remote_Mag: DemoCharge_Remote_Mag
 	{
-		displayName = "Small (Urban RGD-5)";
+		displayName = "Small (Urban M67)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
 		class ACE_Triggers
 		{
@@ -88,7 +88,7 @@ class CfgMagazines
 	};
 	class IEDUrbanSmall_Pressure_Mag: IEDUrbanSmall_Remote_Mag
 	{
-		displayName = "Small IED pressure plate (Urban RGD-5)";
+		displayName = "Small IED pressure plate (Urban M67)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDUrbanSmall";
 		class ACE_Triggers
 		{
