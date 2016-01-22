@@ -114,7 +114,7 @@ class cfgAmmo
 		ace_frag_classes[] = {"ACE_frag_large_HD"};
 		// values from POMZ-2M mine
 		indirectHit = 1;
-		indirectHitRange = 1;		
+		indirectHitRange = 1;
 		model = "\A3\Weapons_F\explosives\mine_AP_tripwire";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_tripwire_d";
 		defaultMagazine = "APERSTripMine_Wire_Mag";
@@ -129,7 +129,7 @@ class cfgAmmo
 		mineTrigger = "WireTrigger";
 		mineInconspicuousness = 50;
 	};
-	
+
 	class Tripflare_Ammo: APERSTripMine_Wire_Ammo
 	{
 		ace_frag_skip = 1;
@@ -146,4 +146,28 @@ class cfgAmmo
 	class Tripflare_Ammo_Green: Tripflare_Ammo {};
 	class Tripflare_Ammo_Red: Tripflare_Ammo {};
 	class Tripflare_Ammo_Yellow: Tripflare_Ammo {};
+
+	class Tripflare_Ammo_Ground_White: Tripflare_Ammo {};
+	class Tripflare_Ammo_Ground_Green: Tripflare_Ammo {};
+	class Tripflare_Ammo_Ground_Red: Tripflare_Ammo {};
+	class Tripflare_Ammo_Ground_Yellow: Tripflare_Ammo {};
+
+
+	class F_40mm_White;
+	class Tripflare_Flare_White : F_40mm_White
+	{
+		triggertime = 0;
+	};
+	class Tripflare_Flare_Red: Tripflare_Flare_White
+	{
+		lightColor[]={0.5,0.25,0.25,0};
+	};
+	class Tripflare_Flare_Green : Tripflare_Flare_White
+	{
+		lightColor[]={0.25,0.5,0.25,0.0};
+	};
+	class Tripflare_Flare_Yellow : Tripflare_Flare_White
+	{
+		lightColor[]={0.5,0.5,0.25,0.0};
+	};
 };
