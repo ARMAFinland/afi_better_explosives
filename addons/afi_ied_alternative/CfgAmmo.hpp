@@ -1,7 +1,7 @@
 class CfgAmmo
 {
 	class PipeBombCore;
-    class PipeBombBase: PipeBombCore
+	class PipeBombBase: PipeBombCore
 	{
 		ACE_DefuseTime = 20;
 		ace_frag_skip = 0;
