@@ -4,10 +4,8 @@
 #include "CfgMagazines.hpp"
 #include "ACE_Triggers.hpp"
 
-class CfgPatches
-{
-	class afi_ied_alternative
-	{
+class CfgPatches {
+	class afi_ied_alternative {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -28,24 +26,21 @@ class Rsc_ACE_PhoneInterface {
     };
 };
 
-class CfgMineTriggers
-{
+class CfgMineTriggers {
 	class RangeTrigger;
-	class RangeTriggerIEDSmall: RangeTrigger
-	{
+	class RangeTriggerIEDSmall: RangeTrigger {
 		mineTriggerRange = 1;
 		mineTriggerActivation = 5;
 		mineDelay = 0.5;
 	};
-	class RangeTriggerIEDBig: RangeTrigger
-	{
+	class RangeTriggerIEDBig: RangeTrigger {
 		mineTriggerRange = 1.2;
 		mineTriggerActivation = 5;
 		mineDelay = 0.5;
 	};
 };
-class cfgMods
-{
+
+class cfgMods {
 	author = "Johnson & Anatooli";
 	authorUrl = "www.armafinland.fi";
 };

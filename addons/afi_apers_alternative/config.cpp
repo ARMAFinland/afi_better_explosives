@@ -3,10 +3,8 @@
 #include "CfgMagazines.hpp"
 #include "ACE_Triggers.hpp"
 
-class CfgPatches
-{
-	class afi_apers_alternative
-	{
+class CfgPatches {
+	class afi_apers_alternative {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -18,18 +16,15 @@ class Extended_PreInit_EventHandlers {
 	afi_apers_alternative_PreInit = "[] execVM 'afi_apers_alternative\init.sqf'";
 };
 
-class CfgMineTriggers
-{
+class CfgMineTriggers {
 	class RangeTrigger;
 	class WireTrigger;
-	class RangeTriggerShort: RangeTrigger
-	{
+	class RangeTriggerShort: RangeTrigger {
 		mineTriggerRange = 1;
 		mineTriggerActivation = 5;
 		mineDelay = 0.2;
 	};
-	class RangeTriggerBounding: RangeTrigger
-	{
+	class RangeTriggerBounding: RangeTrigger {
 		mineTriggerRange = 1;
 		mineTriggerActivationRange = 5;
 		mineDelay = 2;
@@ -63,8 +58,7 @@ class Tripflare_Explosion_Effect {
 	};
 };
 
-class cfgMods
-{
+class cfgMods {
 	author = "Johnson & Anatooli";
 	authorUrl = "www.armafinland.fi";
 };

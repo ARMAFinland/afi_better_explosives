@@ -1,10 +1,8 @@
-class cfgAmmo
-{
+class cfgAmmo {
 	class MineCore;
 	class BoundingMineCore;
 	class DirectionalBombCore;
-	class MineBase: MineCore
-	{
+	class MineBase: MineCore {
 		ace_frag_skip = 0;
 		ace_frag_force = 1;
 		icon = "iconExplosiveAT";
@@ -17,8 +15,8 @@ class cfgAmmo
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,30};
 		aiAmmoUsageFlags = 16;
 	};
-	class BoundingMineBase: BoundingMineCore
-	{
+
+	class BoundingMineBase: BoundingMineCore {
 		ace_frag_skip = 0;
 		ace_frag_force = 1;
 		icon = "iconExplosiveAP";
@@ -30,8 +28,8 @@ class cfgAmmo
 		soundActivation[] = {"A3\Sounds_F\weapons\Mines\electron_activate_mine_1",0.56234133,1,50};
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,50};
 	};
-	class DirectionalBombBase: DirectionalBombCore
-	{
+
+	class DirectionalBombBase: DirectionalBombCore {
 		ace_frag_skip = 0;
 		ace_frag_force = 1;
 		explosionPos = "explosionPos";
@@ -50,8 +48,8 @@ class cfgAmmo
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,50};
 		craterShape = "\A3\weapons_f\empty.p3d";
 	};
-	class APERSMine_Range_Ammo: MineBase
-	{
+
+	class APERSMine_Range_Ammo: MineBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 245;
 		ace_frag_charge = 55;
@@ -77,8 +75,8 @@ class cfgAmmo
 		mineInconspicuousness = 30;
 		mineTrigger = "RangeTriggerShort";
 	};
-	class APERSBoundingMine_Range_Ammo: BoundingMineBase
-	{
+
+	class APERSBoundingMine_Range_Ammo: BoundingMineBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 182;
 		ace_frag_charge = 601;
@@ -104,8 +102,8 @@ class cfgAmmo
 		mineInconspicuousness = 40;
 		mineTrigger = "RangeTriggerBounding";
 	};
-	class APERSTripMine_Wire_Ammo: DirectionalBombBase
-	{
+
+	class APERSTripMine_Wire_Ammo: DirectionalBombBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 225;
 		ace_frag_charge = 75;
@@ -130,8 +128,7 @@ class cfgAmmo
 		mineInconspicuousness = 50;
 	};
 
-	class Tripflare_Ammo: APERSTripMine_Wire_Ammo
-	{
+	class Tripflare_Ammo: APERSTripMine_Wire_Ammo {
 		ace_frag_skip = 1;
 		hit=0;
 		indirectHit=0;
@@ -146,28 +143,22 @@ class cfgAmmo
 	class Tripflare_Ammo_Green: Tripflare_Ammo {};
 	class Tripflare_Ammo_Red: Tripflare_Ammo {};
 	class Tripflare_Ammo_Yellow: Tripflare_Ammo {};
-
 	class Tripflare_Ammo_Ground_White: Tripflare_Ammo {};
 	class Tripflare_Ammo_Ground_Green: Tripflare_Ammo {};
 	class Tripflare_Ammo_Ground_Red: Tripflare_Ammo {};
 	class Tripflare_Ammo_Ground_Yellow: Tripflare_Ammo {};
 
-
 	class F_40mm_White;
-	class Tripflare_Flare_White : F_40mm_White
-	{
+	class Tripflare_Flare_White : F_40mm_White {
 		triggertime = 0;
 	};
-	class Tripflare_Flare_Red: Tripflare_Flare_White
-	{
+	class Tripflare_Flare_Red: Tripflare_Flare_White {
 		lightColor[]={0.5,0.25,0.25,0};
 	};
-	class Tripflare_Flare_Green : Tripflare_Flare_White
-	{
+	class Tripflare_Flare_Green : Tripflare_Flare_White {
 		lightColor[]={0.25,0.5,0.25,0.0};
 	};
-	class Tripflare_Flare_Yellow : Tripflare_Flare_White
-	{
+	class Tripflare_Flare_Yellow : Tripflare_Flare_White {
 		lightColor[]={0.5,0.5,0.25,0.0};
 	};
 };

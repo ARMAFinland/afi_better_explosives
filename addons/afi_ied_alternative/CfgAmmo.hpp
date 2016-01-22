@@ -1,14 +1,12 @@
-class CfgAmmo
-{
+class CfgAmmo {
 	class PipeBombCore;
-	class PipeBombBase: PipeBombCore
-	{
+	class PipeBombBase: PipeBombCore {
 		ACE_DefuseTime = 20;
 		ace_frag_skip = 0;
 		ace_frag_force = 1;
 	};
-	class IEDUrbanBig_Remote_Ammo: PipeBombBase
-	{
+
+	class IEDUrbanBig_Remote_Ammo: PipeBombBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 17605;
 		ace_frag_charge = 3675;
@@ -22,16 +20,14 @@ class CfgAmmo
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
-	class IEDUrbanBig_Command_Ammo: IEDUrbanBig_Remote_Ammo
-	{
+	class IEDUrbanBig_Command_Ammo: IEDUrbanBig_Remote_Ammo {
 		mineTrigger = "RemoteTrigger";
 	};
-	class IEDUrbanBig_Range_Ammo: IEDUrbanBig_Remote_Ammo
-	{
+	class IEDUrbanBig_Range_Ammo: IEDUrbanBig_Remote_Ammo {
 		mineTrigger = "RangeTriggerIEDBig";
 	};
-	class IEDUrbanSmall_Remote_Ammo: PipeBombBase
-	{
+
+	class IEDUrbanSmall_Remote_Ammo: PipeBombBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 220;
 		ace_frag_charge = 180;
@@ -45,16 +41,14 @@ class CfgAmmo
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
-	class IEDUrbanSmall_Command_Ammo: IEDUrbanSmall_Remote_Ammo
-	{
+	class IEDUrbanSmall_Command_Ammo: IEDUrbanSmall_Remote_Ammo {
 		mineTrigger = "RemoteTrigger";
 	};
-	class IEDUrbanSmall_Range_Ammo: IEDUrbanSmall_Remote_Ammo
-	{
+	class IEDUrbanSmall_Range_Ammo: IEDUrbanSmall_Remote_Ammo {
 		mineTrigger = "RangeTriggerIEDSmall";
 	};
-	class IEDLandBig_Remote_Ammo: PipeBombBase
-	{
+
+	class IEDLandBig_Remote_Ammo: PipeBombBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 17605;
 		ace_frag_charge = 3675;
@@ -68,16 +62,14 @@ class CfgAmmo
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
-	class IEDLandBig_Command_Ammo: IEDLandBig_Remote_Ammo
-	{
+	class IEDLandBig_Command_Ammo: IEDLandBig_Remote_Ammo {
 		mineTrigger = "RemoteTrigger";
 	};
-	class IEDLandBig_Range_Ammo: IEDLandBig_Remote_Ammo
-	{
+	class IEDLandBig_Range_Ammo: IEDLandBig_Remote_Ammo {
 		mineTrigger = "RangeTriggerIEDSmall";
 	};
-	class IEDLandSmall_Remote_Ammo: PipeBombBase
-	{
+
+	class IEDLandSmall_Remote_Ammo: PipeBombBase {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 3320;
 		ace_frag_charge = 950;
@@ -91,12 +83,10 @@ class CfgAmmo
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
 	};
-	class IEDLandSmall_Command_Ammo: IEDLandSmall_Remote_Ammo
-	{
+	class IEDLandSmall_Command_Ammo: IEDLandSmall_Remote_Ammo {
 		mineTrigger = "RemoteTrigger";
 	};
-	class IEDLandSmall_Range_Ammo: IEDLandSmall_Remote_Ammo
-	{
+	class IEDLandSmall_Range_Ammo: IEDLandSmall_Remote_Ammo {
 		mineTrigger = "RangeTriggerIEDSmall";
 	};
 };
