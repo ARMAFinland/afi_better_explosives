@@ -15,7 +15,7 @@ class CfgAmmo
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from 122 mm howitzer OF-462
+		// values from 122 mm howitzer OF-462 shell
 		indirectHit = 1;
 		indirectHitRange = 1;	
 		triggerWhenDestroyed = 1;
@@ -33,12 +33,12 @@ class CfgAmmo
 	class IEDUrbanSmall_Remote_Ammo: PipeBombBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 200;
-		ace_frag_charge = 110;
+		ace_frag_metal = 220;
+		ace_frag_charge = 180;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from RGD-5 grenade
+		// values from M67 grenade
 		indirectHit = 1;
 		indirectHitRange = 1;
 		triggerWhenDestroyed = 1;
@@ -61,7 +61,7 @@ class CfgAmmo
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from 122 mm howitzer OF-462
+		// values from 122 mm howitzer OF-462 shell
 		indirectHit = 1;
 		indirectHitRange = 1;	
 		triggerWhenDestroyed = 1;
@@ -79,12 +79,12 @@ class CfgAmmo
 	class IEDLandSmall_Remote_Ammo: PipeBombBase
 	{
 		ace_frag_enabled = 1;
-		ace_frag_metal = 200;
-		ace_frag_charge = 110;
+		ace_frag_metal = 3320;
+		ace_frag_charge = 950;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from RGD-5 grenade
+		// values from M362A1 81mm shell
 		indirectHit = 1;
 		indirectHitRange = 1;
 		triggerWhenDestroyed = 1;

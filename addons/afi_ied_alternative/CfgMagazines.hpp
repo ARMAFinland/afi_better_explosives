@@ -111,7 +111,7 @@ class CfgMagazines
 	};
 	class IEDLandSmall_Remote_Mag: IEDUrbanSmall_Remote_Mag
 	{
-		displayName = "Small IED (Dug-in RGD-5)";
+		displayName = "Medium IED (Dug-in M362A1)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
 		class ACE_Triggers: ACE_Triggers
 		{
@@ -123,7 +123,7 @@ class CfgMagazines
 	};
 	class IEDLandSmall_Pressure_Mag: IEDLandSmall_Remote_Mag
 	{
-		displayName = "Small IED pressure plate (Dug-in RGD-5)";
+		displayName = "Medium IED pressure plate (Dug-in M362A1)";
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
 		class ACE_Triggers: ACE_Triggers
 		{
