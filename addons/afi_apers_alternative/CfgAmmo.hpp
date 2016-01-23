@@ -51,15 +51,15 @@ class cfgAmmo {
 
 	class APERSMine_Range_Ammo: MineBase {
 		ace_frag_enabled = 1;
-		ace_frag_metal = 142;
-		ace_frag_charge = 43;
-		ace_frag_gurney_c = 2830;
+		ace_frag_metal = 100;
+		ace_frag_charge = 25;
+		ace_frag_gurney_c = 2000;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_small_HD"};
-		// values from VS-50 mine
+		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_large_HD"};
+		// values balanced for realism/gameplay
 		hit = 2;
 		indirectHit = 2;
-		indirectHitRange = 3;
+		indirectHitRange = 0.025;
 		model = "\A3\Weapons_F\explosives\mine_ap";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_ap_d";
 		icon = "iconExplosiveAP";
@@ -83,11 +83,11 @@ class cfgAmmo {
 		ace_frag_charge = 601;
 		ace_frag_gurney_c = 2500;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_small_HD"};
+		ace_frag_classes[] = {"ACE_frag_large"};
 		// values from M16A2 mine
 		hit = 10;
 		indirectHit = 10;
-		indirectHitRange = 5;
+		indirectHitRange = 0.375;
 		model = "\A3\Weapons_F\explosives\mine_AP_bouncing";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_bouncing_d";
 		defaultMagazine = "APERSBoundingMine_Range_Mag";
@@ -111,11 +111,11 @@ class cfgAmmo {
 		ace_frag_charge = 410;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_small_HD"};
+		ace_frag_classes[] = {"ACE_frag_large"};
 		// values from PMR-3 mine
 		hit = 5;
 		indirectHit = 5;
-		indirectHitRange = 5;
+		indirectHitRange = 0.1875;
 		model = "\A3\Weapons_F\explosives\mine_AP_tripwire";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_tripwire_d";
 		defaultMagazine = "APERSTripMine_Wire_Mag";
@@ -142,14 +142,17 @@ class cfgAmmo {
 		CraterEffects="";
 		mineTrigger="WireTrigger";
 	};
+	class Tripflare_Ammo_Ground: Tripflare_Ammo {
+		soundHit[] = {"afi_apers_alternative\Data\Audio\Flare_whistle",3.5,1,500};
+	};
 	class Tripflare_Ammo_White: Tripflare_Ammo {};
 	class Tripflare_Ammo_Green: Tripflare_Ammo {};
 	class Tripflare_Ammo_Red: Tripflare_Ammo {};
 	class Tripflare_Ammo_Yellow: Tripflare_Ammo {};
-	class Tripflare_Ammo_Ground_White: Tripflare_Ammo {};
-	class Tripflare_Ammo_Ground_Green: Tripflare_Ammo {};
-	class Tripflare_Ammo_Ground_Red: Tripflare_Ammo {};
-	class Tripflare_Ammo_Ground_Yellow: Tripflare_Ammo {};
+	class Tripflare_Ammo_Ground_White: Tripflare_Ammo_Ground {};
+	class Tripflare_Ammo_Ground_Green: Tripflare_Ammo_Ground {};
+	class Tripflare_Ammo_Ground_Red: Tripflare_Ammo_Ground {};
+	class Tripflare_Ammo_Ground_Yellow: Tripflare_Ammo_Ground {};
 
 	class F_40mm_White;
 	class Tripflare_Flare_White : F_40mm_White {
