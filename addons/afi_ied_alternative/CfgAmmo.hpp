@@ -12,10 +12,12 @@ class CfgAmmo {
 		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large"};
+		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD"};
+		ace_frag_force = 0;
 		// values from 122 mm howitzer OF-462 shell
-		indirectHit = 1;
-		indirectHitRange = 0.375;
+		hit = 500;
+		indirectHit = 500;
+		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -31,12 +33,13 @@ class CfgAmmo {
 		ace_frag_enabled = 1;
 		ace_frag_metal = 220;
 		ace_frag_charge = 180;
-		ace_frag_gurney_c = 2440;
+		ace_frag_gurney_c = 2700;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_large_HD"};
+		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
 		// values from M67 grenade
-		indirectHit = 1;
-		indirectHitRange = 0.075;
+		hit = 5
+		indirectHit = 5;
+		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -54,10 +57,11 @@ class CfgAmmo {
 		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large"};
+		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD"};
 		// values from 122 mm howitzer OF-462 shell
-		indirectHit = 1;
-		indirectHitRange = 0.375;
+		hit = 500;
+		indirectHit = 500;
+		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -75,10 +79,11 @@ class CfgAmmo {
 		ace_frag_charge = 950;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large"};
+		ace_frag_classes[] = {"ACE_frag_small", "ACE_frag_small_HD"};
 		// values from M362A1 81mm shell
-		indirectHit = 1;
-		indirectHitRange = 0.1875;
+		hit = 20;
+		indirectHit = 20;
+		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};

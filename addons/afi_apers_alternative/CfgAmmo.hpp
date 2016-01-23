@@ -51,14 +51,15 @@ class cfgAmmo {
 
 	class APERSMine_Range_Ammo: MineBase {
 		ace_frag_enabled = 1;
-		ace_frag_metal = 245;
-		ace_frag_charge = 55;
+		ace_frag_metal = 142;
+		ace_frag_charge = 43;
 		ace_frag_gurney_c = 2830;
 		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_medium_HD"};
-		// values from PMN-4 mine
-		indirectHit = 1;
-		indirectHitRange = 0.0375;
+		ace_frag_classes[] = {"ACE_frag_small_HD"};
+		// values from VS-50 mine
+		hit = 2;
+		indirectHit = 2;
+		indirectHitRange = 3;
 		model = "\A3\Weapons_F\explosives\mine_ap";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_ap_d";
 		icon = "iconExplosiveAP";
@@ -72,20 +73,21 @@ class cfgAmmo {
 		CraterEffects = "MineCrater";
 		whistleDist = 8;
 		cost = 200;
-		mineInconspicuousness = 30;
+		mineInconspicuousness = 800;
 		mineTrigger = "RangeTriggerShort";
 	};
 
 	class APERSBoundingMine_Range_Ammo: BoundingMineBase {
 		ace_frag_enabled = 1;
-		ace_frag_metal = 182;
+		ace_frag_metal = 3499;
 		ace_frag_charge = 601;
-		ace_frag_gurney_c = 2843;
+		ace_frag_gurney_c = 2500;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large_HD"};
-		// values from M16 mine
-		indirectHit = 1;
-		indirectHitRange = 0.25;
+		ace_frag_classes[] = {"ACE_frag_small_HD"};
+		// values from M16A2 mine
+		hit = 10;
+		indirectHit = 10;
+		indirectHitRange = 5;
 		model = "\A3\Weapons_F\explosives\mine_AP_bouncing";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_bouncing_d";
 		defaultMagazine = "APERSBoundingMine_Range_Mag";
@@ -99,20 +101,21 @@ class cfgAmmo {
 		cost = 300;
 		mineBoundingTime = 0.25;
 		mineBoundingDist = 1;
-		mineInconspicuousness = 40;
+		mineInconspicuousness = 800;
 		mineTrigger = "RangeTriggerBounding";
 	};
 
 	class APERSTripMine_Wire_Ammo: DirectionalBombBase {
 		ace_frag_enabled = 1;
-		ace_frag_metal = 225;
-		ace_frag_charge = 75;
+		ace_frag_metal = 1590;
+		ace_frag_charge = 410;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large_HD"};
-		// values from POMZ-2M mine
-		indirectHit = 1;
-		indirectHitRange = 0.1875;
+		ace_frag_classes[] = {"ACE_frag_small_HD"};
+		// values from PMR-3 mine
+		hit = 5;
+		indirectHit = 5;
+		indirectHitRange = 5;
 		model = "\A3\Weapons_F\explosives\mine_AP_tripwire";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_tripwire_d";
 		defaultMagazine = "APERSTripMine_Wire_Mag";
@@ -125,7 +128,7 @@ class cfgAmmo {
 		whistleDist = 8;
 		cost = 200;
 		mineTrigger = "WireTrigger";
-		mineInconspicuousness = 50;
+		mineInconspicuousness = 800;
 	};
 
 	class Tripflare_Ammo: APERSTripMine_Wire_Ammo {

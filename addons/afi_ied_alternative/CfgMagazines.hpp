@@ -24,7 +24,6 @@ class CfgMagazines {
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone","PressurePlate"};
 			class PressurePlate {
 				displayName = "$STR_ace_explosives_PressurePlate";
-				digDistance = 0;
 				ammo = "IEDUrbanBig_Range_Ammo";
 				pitch = 0;
 			};
@@ -37,6 +36,7 @@ class CfgMagazines {
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandBig";
 		class ACE_Triggers: ACE_Triggers {
 			class Command: Command {
+				digDistance = 0.02;
 				ammo = "IEDLandBig_Command_Ammo";
 			};
 			class DeadmanSwitch: Command {};
@@ -51,6 +51,7 @@ class CfgMagazines {
 		class ACE_Triggers: ACE_Triggers {
 			SupportedTriggers[] = {"Command","DeadmanSwitch","Cellphone","PressurePlate"};
 			class PressurePlate: PressurePlate {
+				digDistance = 0.02;
 				ammo = "IEDLandBig_Range_Ammo";
 			};
 			class DeadmanSwitch: Command {};
@@ -93,6 +94,7 @@ class CfgMagazines {
 		ACE_SetupObject = "ACE_Explosives_Place_IEDLandSmall";
 		class ACE_Triggers: ACE_Triggers {
 			class Command: Command {
+				digDistance = 0.02;
 				ammo = "IEDLandSmall_Command_Ammo";
 			};
 			class DeadmanSwitch: Command {};
@@ -108,6 +110,7 @@ class CfgMagazines {
 			class DeadmanSwitch: Command {};
 			class Cellphone: Command {};
 			class PressurePlate: PressurePlate {
+				digDistance = 0.02;
 				ammo = "IEDLandSmall_Range_Ammo";
 			};
 		};
