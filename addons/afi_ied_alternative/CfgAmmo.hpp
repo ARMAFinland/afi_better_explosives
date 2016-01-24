@@ -12,7 +12,7 @@ class CfgAmmo {
 		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD"};
+		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD", "ACE_frag_small"};
 		ace_frag_force = 0;
 		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
@@ -57,7 +57,7 @@ class CfgAmmo {
 		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD"};
+		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD", "ACE_frag_small"};
 		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
@@ -79,7 +79,7 @@ class CfgAmmo {
 		ace_frag_charge = 950;
 		ace_frag_gurney_c = 2440;
 		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_small", "ACE_frag_small_HD"};
+		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_small", "ACE_frag_small_HD"};
 		// values from M362A1 81mm shell
 		hit = 20;
 		indirectHit = 20;

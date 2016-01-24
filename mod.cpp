@@ -1,11 +1,11 @@
-name = "AFI better explosives 0.5.1";
+name = "AFI better explosives 1.0b";
 picture = "";
 actionName = "GitHub";
 action = "https://github.com/Jansgi/afi_better_explosives";
-description = "Version 0.5.1";
+description = "Version 1.0b";
 logo = "";
 logoOver = "";
 tooltip = "AFI";
 tooltipOwned = "AFI Owned";
-overview = "Improves explosives realism/gameplay balance.";
+overview = "Adds ACE frags to explosives and improves explosives realism/gameplay balance.";
 author = "Johnson & Anatooli";
