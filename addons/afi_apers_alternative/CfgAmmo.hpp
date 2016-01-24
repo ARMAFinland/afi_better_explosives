@@ -10,7 +10,7 @@ class cfgAmmo {
 		explosionType = "mine";
 		triggerWhenDestroyed = 1;
 		underwaterHitRangeCoef = 2;
-		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",3.1622777,1,50};
+		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",3,1,50};
 		soundActivation[] = {"A3\Sounds_F\weapons\mines\mech_activate_mine_1",0.56234133,1,30};
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,30};
 		aiAmmoUsageFlags = 16;
@@ -24,7 +24,7 @@ class cfgAmmo {
 		explosionType = "mine";
 		triggerWhenDestroyed = 1;
 		underwaterHitRangeCoef = 0.5;
-		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.56234133,1,50};
+		soundTrigger[] = {"afi_apers_alternative\Data\Audio\bounding_trigger",3,1,100};
 		soundActivation[] = {"A3\Sounds_F\weapons\Mines\electron_activate_mine_1",0.56234133,1,50};
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,50};
 	};
@@ -43,7 +43,7 @@ class cfgAmmo {
 		mapsize = 1;
 		explosionType = "mine";
 		triggerWhenDestroyed = 1;
-		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.56234133,1,50};
+		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",3,1,50};
 		soundActivation[] = {"A3\Sounds_F\weapons\mines\electron_activate_mine_1",0.56234133,1,50};
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,50};
 		craterShape = "\A3\weapons_f\empty.p3d";
@@ -67,7 +67,7 @@ class cfgAmmo {
 		soundHit1[] = {"A3\Sounds_F\arsenal\explosives\mines\AP_mines_explosion_01",3.1622777,1,1500};
 		soundHit2[] = {"A3\Sounds_F\arsenal\explosives\mines\AP_mines_explosion_02",3.1622777,1,2000};
 		multiSoundHit[] = {"soundHit1",0.5,"soundHit2",0.5};
-		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.56234133,1,50};
+		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,50};
 		soundActivation[] = {"A3\Sounds_F\weapons\mines\electron_activate_mine_1",0.56234133,1,50};
 		explosionEffects = "MineExplosion";
 		CraterEffects = "MineCrater";
@@ -100,7 +100,7 @@ class cfgAmmo {
 		whistleDist = 60;
 		cost = 300;
 		mineBoundingTime = 0.25;
-		mineBoundingDist = 1;
+		mineBoundingDist = 1.2;
 		mineInconspicuousness = 800;
 		mineTrigger = "RangeTriggerBounding";
 	};
@@ -143,7 +143,7 @@ class cfgAmmo {
 		mineTrigger="WireTrigger";
 	};
 	class Tripflare_Ammo_Ground: Tripflare_Ammo {
-		soundHit[] = {"afi_apers_alternative\Data\Audio\Flare_whistle",3.5,1,500};
+		soundHit[] = {"afi_apers_alternative\Data\Audio\flare_whistle",3.5,1,500};
 	};
 	class Tripflare_Ammo_White: Tripflare_Ammo {};
 	class Tripflare_Ammo_Green: Tripflare_Ammo {};
