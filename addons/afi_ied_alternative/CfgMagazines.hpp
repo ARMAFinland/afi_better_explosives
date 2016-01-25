@@ -115,4 +115,10 @@ class CfgMagazines {
 			};
 		};
 	};
+
+	class IEDLandSmall_Remote_Mag: IEDLandMedium_Remote_Mag {
+		displayName = "Medium dug-in IED";
+		descriptionShort="Explosive device improvised from a 81mm mortar shell.";
+		scope = 1;
+	};
 };
