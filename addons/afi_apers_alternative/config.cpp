@@ -1,4 +1,5 @@
 #define _ARMA_
+#include "CfgVehicles.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "ACE_Triggers.hpp"
