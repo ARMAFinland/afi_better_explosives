@@ -30,12 +30,12 @@ class CfgMineTriggers {
 	class RangeTrigger;
 	class RangeTriggerIEDSmall: RangeTrigger {
 		mineTriggerRange = 1;
-		mineTriggerActivation = 5;
+		mineTriggerActivation = 3;
 		mineDelay = 0.5;
 	};
 	class RangeTriggerIEDBig: RangeTrigger {
-		mineTriggerRange = 1.2;
-		mineTriggerActivation = 5;
+		mineTriggerRange = 1;
+		mineTriggerActivation = 3;
 		mineDelay = 0.5;
 	};
 };

@@ -22,12 +22,12 @@ class CfgMineTriggers {
 	class WireTrigger;
 	class RangeTriggerShort: RangeTrigger {
 		mineTriggerRange = 1;
-		mineTriggerActivation = 5;
+		mineTriggerActivation = 3;
 		mineDelay = 0.2;
 	};
 	class RangeTriggerBounding: RangeTrigger {
 		mineTriggerRange = 1;
-		mineTriggerActivationRange = 5;
+		mineTriggerActivationRange = 3;
 		mineDelay = 2;
 	};
 };

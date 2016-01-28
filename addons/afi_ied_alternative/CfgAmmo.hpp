@@ -17,7 +17,7 @@ class CfgAmmo {
 		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
-		indirectHitRange = 5;
+		indirectHitRange = 3;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -37,8 +37,8 @@ class CfgAmmo {
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
 		// values from M67 grenade
-		hit = 5
-		indirectHit = 5;
+		hit = 3;
+		indirectHit = 3;
 		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
@@ -61,7 +61,7 @@ class CfgAmmo {
 		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
-		indirectHitRange = 5;
+		indirectHitRange = 3;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -81,9 +81,9 @@ class CfgAmmo {
 		ace_frag_gurney_k = 1/2;
 		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_small", "ACE_frag_small_HD"};
 		// values from M362A1 81mm shell
-		hit = 20;
-		indirectHit = 20;
-		indirectHitRange = 5;
+		hit = 25;
+		indirectHit = 25;
+		indirectHitRange = 3;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
