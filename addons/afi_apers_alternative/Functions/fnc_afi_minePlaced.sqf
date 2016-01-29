@@ -9,7 +9,7 @@ _frag_enabled = getNumber(configFile >> "CfgAmmo" >> _ammo >> "ace_frag_enabled"
 _frag_skip = getNumber(configFile >> "CfgAmmo" >> _ammo >> "ace_frag_skip");
 
 if (_frag_enabled == 1 && _frag_skip == 0) then {
-  [[fnc_afi_handleMineFrags, 0, [_explosive, _ammo]], CBA_fnc_addPerFrameHandler] remoteExec ["bis_fnc_call", 0];
+    ["afi_fragEvent",  [_explosive, _ammo]] call ACE_common_fnc_globalEvent;
 };
 
 if (_ammo find "Tripflare_Ammo" != -1) then {

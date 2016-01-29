@@ -17,7 +17,7 @@ class CfgAmmo {
 		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
-		indirectHitRange = 3;
+		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
@@ -61,7 +61,7 @@ class CfgAmmo {
 		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
-		indirectHitRange = 3;
+		indirectHitRange = 5;
 		triggerWhenDestroyed = 1;
 		ACE_explodeOnDefuse = 0.25;
 		soundTrigger[] = {"A3\Sounds_F\weapons\mines\mech_trigger_2",0.8,1,40};
