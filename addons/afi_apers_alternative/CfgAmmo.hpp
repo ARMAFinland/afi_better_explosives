@@ -50,16 +50,16 @@ class cfgAmmo {
 	};
 
 	class APERSMine_Range_Ammo: MineBase {
-		ace_frag_enabled = 1;
+		ace_frag_enabled = 0;
 		ace_frag_metal = 100;
 		ace_frag_charge = 25;
 		ace_frag_gurney_c = 2000;
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_large_HD"};
 		// values balanced for realism/gameplay
-		hit = 2;
-		indirectHit = 2;
-		indirectHitRange = 0.025;
+		hit = 1;
+		indirectHit = 3;
+		indirectHitRange = 3;
 		model = "\A3\Weapons_F\explosives\mine_ap";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_ap_d";
 		icon = "iconExplosiveAP";
@@ -78,7 +78,7 @@ class cfgAmmo {
 	};
 
 	class APERSBoundingMine_Range_Ammo: BoundingMineBase {
-		ace_frag_enabled = 1;
+		ace_frag_enabled = 0;
 		ace_frag_metal = 3499;
 		ace_frag_charge = 601;
 		ace_frag_gurney_c = 2500;
@@ -87,7 +87,7 @@ class cfgAmmo {
 		// values from M16A2 mine
 		hit = 10;
 		indirectHit = 10;
-		indirectHitRange = 0.375;
+		indirectHitRange = 10;
 		model = "\A3\Weapons_F\explosives\mine_AP_bouncing";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_bouncing_d";
 		defaultMagazine = "APERSBoundingMine_Range_Mag";
@@ -106,7 +106,7 @@ class cfgAmmo {
 	};
 
 	class APERSTripMine_Wire_Ammo: DirectionalBombBase {
-		ace_frag_enabled = 1;
+		ace_frag_enabled = 0;
 		ace_frag_metal = 1590;
 		ace_frag_charge = 410;
 		ace_frag_gurney_c = 2440;
@@ -115,7 +115,7 @@ class cfgAmmo {
 		// values from PMR-3 mine
 		hit = 5;
 		indirectHit = 5;
-		indirectHitRange = 0.1875;
+		indirectHitRange = 5;
 		model = "\A3\Weapons_F\explosives\mine_AP_tripwire";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_tripwire_d";
 		defaultMagazine = "APERSTripMine_Wire_Mag";
