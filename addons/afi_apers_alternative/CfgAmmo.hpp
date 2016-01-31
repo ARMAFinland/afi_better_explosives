@@ -57,9 +57,9 @@ class cfgAmmo {
 		ace_frag_gurney_k = 3/5;
 		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_large_HD"};
 		// values balanced for realism/gameplay
-		hit = 1;
-		indirectHit = 3;
-		indirectHitRange = 3;
+		hit = 5;
+		indirectHit = 5;
+		indirectHitRange = 0.5;
 		model = "\A3\Weapons_F\explosives\mine_ap";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_ap_d";
 		icon = "iconExplosiveAP";
