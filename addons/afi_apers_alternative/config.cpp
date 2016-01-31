@@ -14,7 +14,9 @@ class CfgPatches {
 };
 
 class Extended_PreInit_EventHandlers {
-	afi_apers_alternative_PreInit = "[] execVM 'afi_apers_alternative\init.sqf'";
+	class afi_PreInit_EventsHandlers {
+		init = "call compile preProcessFileLineNumbers '\afi_apers_alternative\init.sqf'";
+	};
 };
 
 class CfgMineTriggers {
