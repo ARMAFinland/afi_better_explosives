@@ -1,8 +1,8 @@
-name = "AFI better explosives 1.0.4b";
+name = "AFI better explosives 1.0.5b";
 picture = "";
 actionName = "GitHub";
 action = "https://github.com/Jansgi/afi_better_explosives";
-description = "Version 1.0.4b";
+description = "Version 1.0.5b";
 logo = "";
 logoOver = "";
 tooltip = "AFI";
