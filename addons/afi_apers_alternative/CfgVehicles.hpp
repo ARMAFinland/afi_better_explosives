@@ -26,7 +26,7 @@ class CfgVehicles {
 	};
 	class Tripflare_White: Tripflare_Red {
 		displayName = "Trip flare (white)";
-		ammo="Tripflare_Ammo_Ground_White";
+		ammo="Tripflare_Ammo_White";
 	};
 
 	// Ground tripflares
