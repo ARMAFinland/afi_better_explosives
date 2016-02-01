@@ -7,5 +7,5 @@ logo = "";
 logoOver = "";
 tooltip = "AFI";
 tooltipOwned = "AFI Owned";
-overview = "Adds ACE frags to explosives and improves explosives realism/gameplay balance.";
+overview = "Improves explosives realism/gameplay balance.";
 author = "Johnson & Anatooli";
