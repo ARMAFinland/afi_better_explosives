@@ -9,7 +9,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ace_explosives","ace_interaction","ace_interact_menu","A3_Weapons_F"};
+		requiredAddons[] = {"ace_explosives","ace_interaction","ace_interact_menu","A3_Weapons_F","Extended_EventHandlers"};
 	};
 };
 
