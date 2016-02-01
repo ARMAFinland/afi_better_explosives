@@ -65,7 +65,7 @@ class CfgSounds {
 	sounds[] = {};
 	class Flare_whistle {
 		name = "Flare_whistle";
-		sound[] = {"afi_apers_alternative\Data\Audio\Flare_whistle.wss",3.5,1,1500};
+		sound[] = {"afi_apers_alternative\Data\Audio\Flare_whistle.wss",3.5,1,1000};
 		titles[] = {};
 	};
 };

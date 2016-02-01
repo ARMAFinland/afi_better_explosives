@@ -120,7 +120,7 @@ class cfgAmmo {
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_AP_tripwire_d";
 		defaultMagazine = "APERSTripMine_Wire_Mag";
 		icon = "iconExplosiveAP";
-		soundHit[] = {"\A3\Sounds_F\arsenal\explosives\mines\Explosion_tripwire_landmine",3.1622777,1,1500};
+		soundHit[] = {"\A3\Sounds_F\arsenal\explosives\mines\Explosion_tripwire_landmine",3.1622777,1,1000};
 		minimumSafeZone = 0;
 		explosionAngle = 360;
 		explosionEffects = "MineExplosion";
@@ -137,7 +137,7 @@ class cfgAmmo {
 		indirectHit=0;
 		indirectHitRange=0;
 		defaultMagazine="Tripflare_Mag";
-		soundTrigger[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot",3.5,1,1500};
+		soundTrigger[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot",3.5,1,1000};
 		soundHit[] = {"",0,0,0};
 		explosionEffects="Tripflare_Explosion_Effect";
 		CraterEffects="";
@@ -155,7 +155,10 @@ class cfgAmmo {
 
 	class F_40mm_White;
 	class Tripflare_Flare_White : F_40mm_White {
-		triggertime = 0;
+		triggerTime = 0;
+		intensity = 20000;
+        flareSize = 6;
+		timeToLive = 30;
 	};
 	class Tripflare_Flare_Red: Tripflare_Flare_White {
 		lightColor[]={0.5,0.25,0.25,0};
