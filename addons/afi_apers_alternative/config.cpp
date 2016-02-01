@@ -61,6 +61,15 @@ class Tripflare_Explosion_Effect {
 	};
 };
 
+class CfgSounds {
+	sounds[] = {};
+	class Flare_whistle {
+		name = "Flare_whistle";
+		sound[] = {"afi_apers_alternative\Data\Audio\Flare_whistle.wss",3.5,1,1500};
+		titles[] = {};
+	};
+};
+
 class cfgMods {
 	author = "Johnson & Anatooli";
 	authorUrl = "www.armafinland.fi";

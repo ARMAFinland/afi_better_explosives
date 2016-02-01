@@ -24,7 +24,7 @@ class cfgAmmo {
 		explosionType = "mine";
 		triggerWhenDestroyed = 1;
 		underwaterHitRangeCoef = 0.5;
-		soundTrigger[] = {"afi_apers_alternative\Data\Audio\bounding_trigger",3,1,100};
+		soundTrigger[] = {"afi_apers_alternative\Data\Audio\Bounding_trigger",3,1,100};
 		soundActivation[] = {"A3\Sounds_F\weapons\Mines\electron_activate_mine_1",0.56234133,1,50};
 		soundDeactivation[] = {"A3\Sounds_F\weapons\mines\deactivate_mine_3a",0.56234133,1,50};
 	};
@@ -137,14 +137,13 @@ class cfgAmmo {
 		indirectHit=0;
 		indirectHitRange=0;
 		defaultMagazine="Tripflare_Mag";
-		soundHit[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot",3.5,1,1500};
+		soundTrigger[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot",3.5,1,1500};
+		soundHit[] = {"",0,0,0};
 		explosionEffects="Tripflare_Explosion_Effect";
 		CraterEffects="";
 		mineTrigger="WireTrigger";
 	};
-	class Tripflare_Ammo_Ground: Tripflare_Ammo {
-		soundHit[] = {"afi_apers_alternative\Data\Audio\flare_whistle",3.5,1,500};
-	};
+	class Tripflare_Ammo_Ground: Tripflare_Ammo {};
 	class Tripflare_Ammo_White: Tripflare_Ammo {};
 	class Tripflare_Ammo_Green: Tripflare_Ammo {};
 	class Tripflare_Ammo_Red: Tripflare_Ammo {};
