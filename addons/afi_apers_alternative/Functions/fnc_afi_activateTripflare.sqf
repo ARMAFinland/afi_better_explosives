@@ -1,20 +1,20 @@
 params ["_explosive", "_ammo"];
-_velocity = [wind select 0,wind select 1,30];
+_velocity = [wind select 0,wind select 1,15];
 _sound = "Flare_whistle";
 _soundSourceClass = "SoundFlareLoop_F";
 
 switch(_ammo) do {
-  case "Tripflare_Ammo_Red": { ["Tripflare_Flare_Red", 70] };
-  case "Tripflare_Ammo_Yellow": { ["Tripflare_Flare_Yellow", 70] };
-  case "Tripflare_Ammo_Green": { ["Tripflare_Flare_Green", 70] };
-  case "Tripflare_Ammo_White": { ["Tripflare_Flare_White", 70] };
+  case "Tripflare_Ammo_Red": { ["Tripflare_Flare_Red", 100] };
+  case "Tripflare_Ammo_Yellow": { ["Tripflare_Flare_Yellow", 100] };
+  case "Tripflare_Ammo_Green": { ["Tripflare_Flare_Green", 100] };
+  case "Tripflare_Ammo_White": { ["Tripflare_Flare_White", 100] };
 
-  case "Tripflare_Ammo_Ground_Red": { ["Tripflare_Flare_Red", 1] };
-  case "Tripflare_Ammo_Ground_Yellow": { ["Tripflare_Flare_Yellow", 1] };
-  case "Tripflare_Ammo_Ground_Green": { ["Tripflare_Flare_Green", 1] };
-  case "Tripflare_Ammo_Ground_White": { ["Tripflare_Flare_White", 1] };
+  case "Tripflare_Ammo_Ground_Red": { ["Tripflare_Flare_Red", 0.1] };
+  case "Tripflare_Ammo_Ground_Yellow": { ["Tripflare_Flare_Yellow", 0.1] };
+  case "Tripflare_Ammo_Ground_Green": { ["Tripflare_Flare_Green", 0.1] };
+  case "Tripflare_Ammo_Ground_White": { ["Tripflare_Flare_White", 0.1] };
 
-	default { ["Tripflare_Flare_Red", 70] };
+	default { ["Tripflare_Flare_Red", 100] };
 } params ["_flare", "_altitude"];
 
 _pos = getPos _explosive;
