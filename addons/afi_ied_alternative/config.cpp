@@ -14,7 +14,7 @@ class CfgPatches {
 };
 
 class Extended_PreInit_EventHandlers {
-	class afi_EventHandlers {
+	class afi_PreInit {
 		init = "call compile preProcessFileLineNumbers '\afi_ied_alternative\init.sqf'";
 	};
 };
