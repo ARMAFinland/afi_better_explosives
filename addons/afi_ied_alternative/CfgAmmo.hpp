@@ -7,7 +7,7 @@ class CfgAmmo {
 	};
 
 	class IEDUrbanBig_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 17605;
 		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
@@ -30,7 +30,7 @@ class CfgAmmo {
 	};
 
 	class IEDUrbanSmall_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 220;
 		ace_frag_charge = 180;
 		ace_frag_gurney_c = 2700;
@@ -52,7 +52,7 @@ class CfgAmmo {
 	};
 
 	class IEDLandBig_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 17605;
 		ace_frag_charge = 3675;
 		ace_frag_gurney_c = 2440;
@@ -74,7 +74,7 @@ class CfgAmmo {
 	};
 
 	class IEDLandSmall_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 3320;
 		ace_frag_charge = 950;
 		ace_frag_gurney_c = 2440;

@@ -50,7 +50,7 @@ class cfgAmmo {
 	};
 
 	class APERSMine_Range_Ammo: MineBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 100;
 		ace_frag_charge = 25;
 		ace_frag_gurney_c = 2000;
@@ -78,7 +78,7 @@ class cfgAmmo {
 	};
 
 	class APERSBoundingMine_Range_Ammo: BoundingMineBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 3499;
 		ace_frag_charge = 601;
 		ace_frag_gurney_c = 2500;
@@ -106,7 +106,7 @@ class cfgAmmo {
 	};
 
 	class APERSTripMine_Wire_Ammo: DirectionalBombBase {
-		ace_frag_enabled = 0;
+		ace_frag_enabled = 1;
 		ace_frag_metal = 1590;
 		ace_frag_charge = 410;
 		ace_frag_gurney_c = 2440;

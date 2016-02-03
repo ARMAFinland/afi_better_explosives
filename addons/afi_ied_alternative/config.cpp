@@ -14,9 +14,7 @@ class CfgPatches {
 };
 
 class Extended_PreInit_EventHandlers {
-	class afi_PreInit {
-		init = "call compile preProcessFileLineNumbers '\afi_ied_alternative\init.sqf'";
-	};
+	afi_ied_alternative_PreInit = "[] execVM 'afi_ied_alternative\init.sqf'";
 };
 
 class Rsc_ACE_HiddenButton;
