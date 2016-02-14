@@ -3,8 +3,6 @@ class cfgAmmo {
 	class BoundingMineCore;
 	class DirectionalBombCore;
 	class MineBase: MineCore {
-		ace_frag_skip = 0;
-		ace_frag_force = 1;
 		icon = "iconExplosiveAT";
 		mapsize = 1;
 		explosionType = "mine";
@@ -17,8 +15,6 @@ class cfgAmmo {
 	};
 
 	class BoundingMineBase: BoundingMineCore {
-		ace_frag_skip = 0;
-		ace_frag_force = 1;
 		icon = "iconExplosiveAP";
 		mapsize = 1;
 		explosionType = "mine";
@@ -30,8 +26,6 @@ class cfgAmmo {
 	};
 
 	class DirectionalBombBase: DirectionalBombCore {
-		ace_frag_skip = 0;
-		ace_frag_force = 1;
 		explosionPos = "explosionPos";
 		explosionDir = "explosionDir";
 		minimumSafeZone = 1;
@@ -50,16 +44,9 @@ class cfgAmmo {
 	};
 
 	class APERSMine_Range_Ammo: MineBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 100;
-		ace_frag_charge = 25;
-		ace_frag_gurney_c = 2000;
-		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_large_HD"};
-		// values balanced for realism/gameplay
-		hit = 5;
+		hit = 1;
 		indirectHit = 5;
-		indirectHitRange = 0.5;
+		indirectHitRange = 0.6;
 		model = "\A3\Weapons_F\explosives\mine_ap";
 		mineModelDisabled = "\A3\Weapons_F\explosives\mine_ap_d";
 		icon = "iconExplosiveAP";
@@ -78,13 +65,6 @@ class cfgAmmo {
 	};
 
 	class APERSBoundingMine_Range_Ammo: BoundingMineBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 3499;
-		ace_frag_charge = 601;
-		ace_frag_gurney_c = 2500;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from M16A2 mine
 		hit = 10;
 		indirectHit = 10;
 		indirectHitRange = 10;
@@ -106,13 +86,6 @@ class cfgAmmo {
 	};
 
 	class APERSTripMine_Wire_Ammo: DirectionalBombBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 1590;
-		ace_frag_charge = 410;
-		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_large"};
-		// values from PMR-3 mine
 		hit = 5;
 		indirectHit = 5;
 		indirectHitRange = 5;
@@ -132,7 +105,6 @@ class cfgAmmo {
 	};
 
 	class Tripflare_Ammo: APERSTripMine_Wire_Ammo {
-		ace_frag_skip = 1;
 		hit=0;
 		indirectHit=0;
 		indirectHitRange=0;

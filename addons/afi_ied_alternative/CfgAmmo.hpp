@@ -1,20 +1,7 @@
 class CfgAmmo {
 	class PipeBombCore;
-	class PipeBombBase: PipeBombCore {
-		ACE_DefuseTime = 20;
-		ace_frag_skip = 0;
-		ace_frag_force = 1;
-	};
-
+	class PipeBombBase: PipeBombCore {};
 	class IEDUrbanBig_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 17605;
-		ace_frag_charge = 3675;
-		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD", "ACE_frag_small"};
-		ace_frag_force = 0;
-		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
 		indirectHitRange = 5;
@@ -30,13 +17,6 @@ class CfgAmmo {
 	};
 
 	class IEDUrbanSmall_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 220;
-		ace_frag_charge = 180;
-		ace_frag_gurney_c = 2700;
-		ace_frag_gurney_k = 3/5;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		// values from M67 grenade
 		hit = 3;
 		indirectHit = 3;
 		indirectHitRange = 5;
@@ -52,13 +32,6 @@ class CfgAmmo {
 	};
 
 	class IEDLandBig_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 17605;
-		ace_frag_charge = 3675;
-		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD", "ACE_frag_small"};
-		// values from 122 mm howitzer OF-462 shell
 		hit = 500;
 		indirectHit = 500;
 		indirectHitRange = 5;
@@ -74,13 +47,6 @@ class CfgAmmo {
 	};
 
 	class IEDLandSmall_Remote_Ammo: PipeBombBase {
-		ace_frag_enabled = 1;
-		ace_frag_metal = 3320;
-		ace_frag_charge = 950;
-		ace_frag_gurney_c = 2440;
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_medium_HD", "ACE_frag_small", "ACE_frag_small_HD"};
-		// values from M362A1 81mm shell
 		hit = 25;
 		indirectHit = 25;
 		indirectHitRange = 5;
